@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BDB6C8227CFC5C4000B6B97 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB6C8027CFC5C4000B6B97 /* AlbumCell.swift */; };
+		0BDB6C8327CFC5C4000B6B97 /* AlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BDB6C8127CFC5C4000B6B97 /* AlbumCell.xib */; };
 		CA7A916524B774F500419A0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7A916424B774F500419A0F /* AppDelegate.swift */; };
 		CA7A916724B774F500419A0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7A916624B774F500419A0F /* SceneDelegate.swift */; };
 		CA7A916924B774F500419A0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7A916824B774F500419A0F /* ViewController.swift */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BDB6C8027CFC5C4000B6B97 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		0BDB6C8127CFC5C4000B6B97 /* AlbumCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumCell.xib; sourceTree = "<group>"; };
 		CA7A916124B774F500419A0F /* Swifterviewing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swifterviewing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA7A916424B774F500419A0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA7A916624B774F500419A0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				CA7A916424B774F500419A0F /* AppDelegate.swift */,
 				CA7A916624B774F500419A0F /* SceneDelegate.swift */,
 				CA7A916824B774F500419A0F /* ViewController.swift */,
+				0BDB6C8027CFC5C4000B6B97 /* AlbumCell.swift */,
+				0BDB6C8127CFC5C4000B6B97 /* AlbumCell.xib */,
 				CA7A916A24B774F500419A0F /* Main.storyboard */,
 				CA7A916D24B774F600419A0F /* Assets.xcassets */,
 				CA7A916F24B774F600419A0F /* LaunchScreen.storyboard */,
@@ -150,7 +156,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1310;
 				ORGANIZATIONNAME = "World Wide Technology Application Services";
 				TargetAttributes = {
 					CA7A916024B774F500419A0F = {
@@ -189,6 +195,7 @@
 				CA7A917124B774F600419A0F /* LaunchScreen.storyboard in Resources */,
 				CA7A916E24B774F600419A0F /* Assets.xcassets in Resources */,
 				CA7A916C24B774F500419A0F /* Main.storyboard in Resources */,
+				0BDB6C8327CFC5C4000B6B97 /* AlbumCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +218,7 @@
 				CA7A918724B776FB00419A0F /* API.swift in Sources */,
 				CA7A916724B774F500419A0F /* SceneDelegate.swift in Sources */,
 				CA7A918924B7D67E00419A0F /* Album.swift in Sources */,
+				0BDB6C8227CFC5C4000B6B97 /* AlbumCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +286,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -338,6 +347,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

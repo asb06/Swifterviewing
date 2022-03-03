@@ -7,7 +7,12 @@
 //
 
 import Foundation
+import UIKit
 
-<#ClassOrStruct#> Album {
-    
+struct Album : Codable {
+    var albumId: Int
+    var id: Int
+    var title: String
+    var url: String
+    var thumbnailUrl: String
 }
